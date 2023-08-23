@@ -25,7 +25,7 @@ O repositório é organizado da seguinte maneira:
 
 - `/exemplos-de-codigo`: Aqui você encontrará exemplos de código para ilustrar conceitos específicos de Sistemas Distribuídos. Cada exemplo é acompanhado por explicações claras.
 
-- `/projetos`: Este diretório contém projetos práticos que podem ser desenvolvidos para aprofundar o entendimento dos conceitos. Cada projeto é acompanhado por instruções e orientações.
+- `/trabalhos`: Este diretório contém projetos práticos que podem ser desenvolvidos para aprofundar o entendimento dos conceitos. Cada projeto é acompanhado por instruções e orientações.
 
 - `/anotacoes`: Anotações de aula, resumos e conceitos-chave relacionados a Sistemas Distribuídos.
 
