@@ -1,65 +1,66 @@
-<html> 
- <head> 
-         <meta charset="utf-8"> 
-         <title>Avaliacoes</title> 
- </head>
- <body bgcolor="#5D9CEC"> 
- <font color="black" face="Verdana" size="4"> 
-  
- <h4> INSTITUTO DE CIÊNCIA E TECNOLOGIA DO TAKESHI </h4> 
- <p> ALUNO: <font color="grey">____________________ </font> </p> 
- <p> TURMA:<font color="grey">____________________ </font> </p> 
- <p> DATA: <font color="grey">____________________ </font> 
- <p align="left"> NOTA: <font color="grey">____________ </font></p> 
- <hr/> 
- <h3>Menu</h3> 
- <ol> 
- <li> <a href="../avaliacoes.html" style="color:white"> Home </a></li> 
- <li> <a href="../secoes/provaHtml.html" style="color:white"> Prova de HTML </a></li> 
- <li> <a href="../secoes/ciencias.html" style="color:white"> Prova de ciências </a></li> 
- <li> <a href="../secoes/geografia.html" style="color:white"> Prova de geografia </a></li> 
- </ol> 
- <hr/> 
-  
- <h1 align="center"> Prova de artes </h1> 
- <center> 
- <img src="../images/art.png" width="20%"/> 
- </center> 
-  
- <ol> 
- <li> <strong> Selecione a alternativa que contém a cor <u>verde musgo: </u> </strong></li> 
- <ol type="a"> 
- <li> <font color="#9aff40"> ■■■■■ </font> </li> 
- <li>  <font color="#e300ff"> ■■■■■ </font>  </li> 
- <li>  <font color="#00ff6c"> ■■■■■ </font>  </li> 
- <li>   <font color="#006400"> ■■■■■ </font> </li> 
- </ol> 
- <li> <strong> Qual era o nome do Leonardo DaVince? </strong></li> 
- <ol type="a"> 
- <li> Leonardo dá 50</li> 
- <li> Leonardo dá 20  </li> 
- <li> Leo tartaruga ninja </li> 
- <li> Leoncio Vicent </li> 
- </ol> 
- <li> <strong> Quais cores misturar para fazer a cor <font color="purple">  <i>roxa</i></font>? </strong></li> 
- <ol type="a"> 
- <li> Essa cor não existe</li> 
- <li> Azul e Vermelho  </li> 
- <li> Amarelo e Rosa  </li> 
- <li> Roxo é cor primária, não pode ser feito a partir de misturas</li> 
- </ol> 
- <li> <strong> Picasso pintava qual estilo? </strong></li> 
- <ol type="a"> 
- <li> Quadradismo ■</li> 
- <li> Triangulismo 🔺️  </li> 
- <li> Ciclismo 🚲 </li> 
- <li> Cubismo 🧊</li> 
- </ol> 
-  
-  
-  
-  
-  
- </font> 
- </body> 
- </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Avaliações</title>
+</head>
+<body bgcolor="#5D9CEC">
+<font color="black" face="Verdana" size="4">
+
+<h4> INSTITUTO DE CIÊNCIA E TECNOLOGIA DO TAKESHI </h4>
+<p> ALUNO: <font color="grey">____________________ </font> </p>
+<p> TURMA:<font color="grey">____________________ </font> </p>
+<p> DATA: <font color="grey">____________________ </font></p>
+<p align="left"> NOTA: <font color="grey">____________ </font></p>
+<hr/>
+<h3>Menu</h3>
+<ol>
+    <li> <a href="../avaliacoes.html" style="color:white"> Home </a></li>
+    <li> <a href="../secoes/provaHtml.html" style="color:white"> Prova de HTML </a></li>
+    <li> <a href="../secoes/ciencias.html" style="color:white"> Prova de ciências </a></li>
+    <li> <a href="../secoes/geografia.html" style="color:white"> Prova de geografia </a></li>
+</ol>
+<hr/>
+
+<h1 align="center"> Prova de artes </h1>
+<center>
+    <img src="../images/art.png" width="20%"/>
+</center>
+<form id="formArtes">
+    <ol>
+        <li> <strong> Selecione a alternativa que contém a cor <u>verde musgo: </u> </strong></li>
+        <ol type="a">
+            <li> <input type="radio" id="q1a" name="questão1" value="a" /> <label for="q1a"><font color="#9aff40"> ■■■■■ </font> </label></li>
+            <li> <input type="radio" id="q1b" name="questão1" value="b" />  <label for="q1b"><font color="#e300ff"> ■■■■■ </font> </label>  </li>
+            <li> <input type="radio" id="q1c" name="questão1" value="c" />  <label for="q1c"><font color="#00ff6c"> ■■■■■ </font> </label>  </li>
+            <li> <input type="radio" id="q1d" name="questão1" value="d" />  <label for="q1d"><font color="#006400"> ■■■■■ </font> </label>  </li>
+        </ol>
+        <li> <strong> Qual era o nome do Leonardo DaVinci? </strong></li>
+        <ol type="a">
+            <li> <input type="radio" id="q2a" name="questão2" value="a" /> <label for="q2a">  Leonardo da Vinci </label></li>
+            <li> <input type="radio" id="q2b" name="questão2" value="b" />  <label for="q2b"> Leonardo da Vinci  </label></li>
+            <li> <input type="radio" id="q2c" name="questão2" value="c" />  <label for="q2c"> Leonardo da Vinci </label></li>
+            <li> <input type="radio" id="q2d" name="questão2" value="d" />  <label for="q2d"> Leonardo da Vinci </label></li>
+        </ol>
+        <li> <strong> Quais cores misturar para fazer a cor <font color="purple">  <i>roxa</i></font>? </strong></li>
+        <ol type="a">
+            <li> <input type="radio" id="q3a" name="questão3" value="3a" /> <label for="q3a">  Amarelo e Rosa  </label></li>
+            <li> <input type="radio" id="q3b" name="questão3" value="3b" />  <label for="q3b"> Azul e Vermelho  </label></li>
+            <li> <input type="radio" id="q3c" name="questão3" value="3c" />  <label for="q3c"> Amarelo e Rosa  </label></li>
+            <li> <input type="radio" id="q3d" name="questão3" value="3d" />  <label for="q3d"> Roxo é cor primária, não pode ser feito a partir de misturas </label></li>
+        </ol>
+        <li> <strong> Picasso pintava qual estilo? </strong></li>
+        <ol type="a">
+            <li> <input type="radio" id="q4a" name="questão4" value="a" /> <label for="q4a">   Quadradismo  ■</label></li>
+            <li> <input type="radio" id="q4b" name="questão4" value="b" />  <label for="q4b">  Triangulismo 🔺️  </label></li>
+            <li> <input type="radio" id="q4c" name="questão4" value="c" />  <label for="q4c">  Ciclismo 🚲 </label></li>
+            <li> <input type="radio" id="q4d" name="questão4" value="d" />  <label for="q4d">  Cubismo 🧊 </label></li>
+        </ol>
+        <input type="submit" form="formArtes" name="btnEnviar" value="Enviar">
+        <input type="reset" value="Limpar Formulário">
+    </ol>
+</form>
+
+</font>
+</body>
+</html>

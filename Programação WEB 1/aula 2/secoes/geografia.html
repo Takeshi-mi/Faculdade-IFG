@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Avaliacoes</title>
+    <meta charset="utf-8">
+    <title>Avaliações</title>
 </head>
 <body bgcolor="OliveDrab">
 <font color="black" face="Verdana" size="4">
@@ -26,40 +27,41 @@
 <img src="../images/geografia.png" width="200px"/>
 </center>
 
+<form id="formGeografia">
 <ol>
-<li> <strong>Quantos continentes existem?</strong></li>
-<ol type="a">
-<li> 5 </li>
-<li> 3 </li>
-<li> 6 </li>
-<li> 7</li>
+    <li> <strong>Quantos continentes existem?</strong></li>
+    <ol type="a">
+        <li> <input type="radio" id="q1a" name="questão1" value="5" /> <label for="q1a"> 5 </label></li>
+        <li> <input type="radio" id="q1b" name="questão1" value="3" /> <label for="q1b"> 3 </label></li>
+        <li> <input type="radio" id="q1c" name="questão1" value="6" /> <label for="q1c"> 6 </label></li>
+        <li> <input type="radio" id="q1d" name="questão1" value="7" /> <label for="q1d"> 7</label></li>
+    </ol>
+    <li> <strong>Em qual continente fica localizado as Filipinas? </strong></li>
+    <ol type="a">
+        <li> <input type="radio" id="q2a" name="questão2" value="Ásia" /> <label for="q2a"> Ásia </label></li>
+        <li> <input type="radio" id="q2b" name="questão2" value="América do Norte" /> <label for="q2b"> América do Norte </label></li>
+        <li> <input type="radio" id="q2c" name="questão2" value="Oceania" /> <label for="q2c"> Oceania </label></li>
+        <li> <input type="radio" id="q2d" name="questão2" value="África" /> <label for="q2d"> África </label></li>
+    </ol>
+    <li> <strong> Quantos seres humanos existem no mundo de acordo com o levantamento mais recente dos dados populacionais? </strong></li>
+    <ol type="a">
+        <li> <input type="radio" id="q3a" name="questão3" value="1 milhão" /> <label for="q3a"> 1 milhão 🌽</label></li>
+        <li> <input type="radio" id="q3b" name="questão3" value="7 milhões" /> <label for="q3b"> 7 milhões 🌽🌽🌽🌽🌽🌽🌽 </label></li>
+        <li> <input type="radio" id="q3c" name="questão3" value="8 bilhões" /> <label for="q3c"> 8 bilhões </label></li>
+        <li> <input type="radio" id="q3d" name="questão3" value="785712768" /> <label for="q3d"> 78571276<sup>8</sup></label></li>
+    </ol>
+    <li> <strong> Qual o oceano que não quer treta com ninguém? </strong></li>
+    <ol type="a">
+        <li> <input type="radio" id="q4a" name="questão4" value="Oceano Pacífico" /> <label for="q4a"> Oceano Pacífico </label></li>
+        <li> <input type="radio" id="q4b" name="questão4" value="Oceano Índico" /> <label for="q4b"> Oceano Índico </label></li>
+        <li> <input type="radio" id="q4c" name="questão4" value="Oceano lagoinha azul" /> <label for="q4c"> Oceano lagoinha azul</label></li>
+        <li> <input type="radio" id="q4d" name="questão4" value="Oceano Atlântico" /> <label for="q4d"> Oceano Atlântico</label></li>
+    </ol>
 </ol>
-<li> <strong>Em qual continente fica localizado as Filipinas? </strong></li>
-<ol type="a">
-<li> Ásia </li>
-<li> América do Norte </li>
-<li> Oceania </li>
-<li> África </li>
-</ol>
-<li> <strong> Quantos seres humanos existem no mundo de acordo com o levantamento mais recente dos dados populacionais? </strong></li>
-<ol type="a">
-<li> 1 milhão 🌽</li>
-<li> 7 milhões 🌽🌽🌽🌽🌽🌽🌽 </li>
-<li> 8 bilhões </li>
-<li> 78571276<sup>8</sup></li>
-</ol>
-<li> <strong> Qual o oceano que não quer treta com ninguém? </strong></li>
-<ol type="a">
-<li> Oceano Pacífico </li>
-<li> Oceano Índico </li>
-<li> Oceano lagoinha azul</li>
-<li> Oceano Atlântico</li>
-</ol>
-
+<input type="submit" form="formGeografia" name="btnEnviar" value="Enviar">
+<input type="reset" value="Limpar Formulário">
+</form>
 
 </font>
-
-
-
 </body>
 </html>
