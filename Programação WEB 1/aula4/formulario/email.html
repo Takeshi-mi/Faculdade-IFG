@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
-<body>
+<body bgcolor="#81EADF">
     <center>
-        <table border="1">
+        <font color="#1A665E" face="Verdana" size="3"> 
+    <h1>HACKATHON </h1>
+        </font>
+    <font color="white" face="Verdana" size="3"> 
+
+        <table bgcolor="#1A665E" border="1">
             <form>
             <tr>
               <th colspan="3">Formulário de inscrição dev</th>
@@ -22,13 +27,74 @@
             <tr>
               <td align="right">
                   <label for="email">Email:</label>
-                  <td><input id="email" type="email" name="txtEmail" placeholder="Digite seu e-mail" required autofocus/>
+                  <td><input id="email" type="email" name="txtEmail" placeholder="Digite seu e-mail" required />
               </td>
             </tr>
             <tr>
                 <td align="right"><label for="senha"> Senha: </label></td> 
                 <td><input id="senha" type="password" name="txtPassword" placeholder="Digite sua senha" required  maxlength="8"/></td> <!--autofocus só pode ser usado uma vez. Ele move o cursor direto para o campo definido.-->  
                 </tr>
+                <tr>
+                    <td align="right">
+                        <label for="tel">Telefone:</label></td>
+                        <td><input id="tel" type="tel" name="txtTel" placeholder="Digite seu telefone" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="foto">Envie sua foto:</label></td>
+                        <td><input id="foto" type="file" name="FileFoto" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="nascimento">Data de Nascimento:</label></td>
+                        <td><input id="nascimento" type="date" name="dateNascimento"  required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="hora">Melhor horário para entrevista:</label></td>
+                        <td><input id="hora" type="datetime-local" name="horarioEntrevista"  required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="almoco">Que horas você almoça?:</label></td>
+                        <td><input id="almoco" type="time" name="horarioAlmoco" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="search">Procure seu pai:</label></td>
+                        <td><input id="search" type="search" name="buscador"  placeholder="Search🔍"  required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="github">GitHub:</label></td>
+                        <td><input id="github" type="url" name="github"  placeholder="www.github.com/user"  required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="grau">Grau de maturidade:</label></td>
+                        <td><input id="grau" type="range" name="Rangematuridade" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="cor">Qual sua cor preferida?</label></td>
+                        <td><input id="cor" type="color" name="cor" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="monitor">Quantos monitores você usa?</label></td>
+                        <td><input id="monitor" type="number" name="NumMonitores" placeholder="Selecione o número" required />
+                    </td>
+                </tr>
+                
                 <tr>
                     <td colspan="2">
                     <label>Gênero:</label><br/>
@@ -40,6 +106,7 @@
                     <label for="o"> Outro</label>
                   </td>
                 </tr>  
+
               <tr>
                 <td colspan="2">
                 <label>Quais linguagem você programa?</label><br/>
@@ -51,8 +118,13 @@
                 <label for="lingua3"> Ruby</label>
               </td>
             </tr>
+            <tr><td colspan="2" align="center">
+                <input type="submit" name="btnEnviar" value="Enviar"/>
+                <input type="reset" name="btLimpar" value="Limpar"/>
+            </td> </tr>
         </form>
           </table>
     </center>
+</font>
 </body>
 </html>
