@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style type="text/css">
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        color: red;
+        padding: 60px;
+    }
+
+</style>
+
+<body>
+
+
+    <h1>Vamos colocar em prática as novas TAGS HTML</h1>
+
+    <button type=“button” name=“btnClick” onclick='alert("Hello world")'> Clique aqui</button>
+
+    <h2> HyperText Markup</h2>
+    <p><dfn><abbr title="HyperText Markup
+    Language">HTML</abbr></dfn> é uma linguagem de marcação
+        utilizada para criação de paginas web</p>
+
+    <h2>Lista de Descrição(dl)</h2>
+    : <dl>
+        <dt>HTML</dt>
+        <dd>É uma liguagem de marcação</dd>
+        <dt>CSS</dt>
+        <dd>Define uma folha de estilo para configurar uma página
+            HTML</dd>
+    </dl>
+    <h2>Details</h2>
+    <details>
+        <summary>HTML</summary>
+        <p>HTML é uma linguagem de marcação que possui muitas
+            tags</p>
+        <p>Veja só que legal</p>
+    </details>
+    <h2> Data Value</h2>
+    <p>A tag data associa um elemento a uma numeração para facilitar na
+        programação de algumas funcionalidades de um site.</p>
+    <ul>
+        <li><data value=“1234”>Arroz</data></li>
+        <li><data value=“12345”>Feijão</data></li>
+    </ul>
+    <h2>Citação</h2>
+    <cite>HTML e CSS no IFG</cite> escrito por Takeshi Miura
+
+    <h2>Code</h2>
+    No HTML <code> caption</code> é utilizado como título
+    em uma tabela.
+    No CSS <code> background‐image </code> define um fundo
+    de tela com imagem.
+
+    <h2>Datalist</h2>
+    <p>Montagem de um select só que de maneira manual</p>
+    <p>Imagine um formulário que tenha esse campo. Você pode digitar que ele vai completando automaticamente com as
+        sugestões</p>
+    <form method="get">
+        <input list="compras">
+        <datalist id="compras">
+            <option value="Arroz">
+            <option value="Feijão">
+        </datalist>
+        <input type="submit">
+    </form>
+    <h2>Fieldset</h2>
+    <form>
+        <fieldset>
+            <legend>Formulario de Cadastro</legend>
+            <label for="meunome">Nome:</label>
+            <input type="text" id="mesunome" name="txtNome"/><br/><br/>
+    <label for=" email">Email:</label>
+            <input type="email" id="email" name="txtEmail"/><br/><br/>
+    <input type=" submit" value="Enviar"/>
+    </fieldset>
+    </form>
+<h2>Progress</h2>
+<p>Define uma barra de progresso</p>
+    <progress value="32" max="100"> 32% </progress><code>32%</code>
+   
+    <h2>Iframe</h2>
+    <p>Incorpora outras páginas de outro documento HTML em sua página</p>
+    <iframe src="https://www.ifg.edu.br/"
+title="IFG" width="100%" height="500px"></iframe>
+<h2>Time</h2>
+<time>10:59</time>
+<h2>address</h2>
+<address>Rua 54, Formosa-GO</address>
+
+
+</body>
+</html>
