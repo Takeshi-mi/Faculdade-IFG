@@ -1,0 +1,59 @@
+:root{
+    --fundoTopFoot: hotpink;
+    --cor-lateral: lightblue;
+
+}
+/*Definir variáveis para não ter que repertir código. :root é utilizado para cores geralmente*/
+
+header{
+background-color: var(--fundoTopFoot);
+grid-area:topo;
+}
+main{ 
+    display: grid; /*Trasnformei em um conteiner. Tem 5 itens lá dentro: header, nav, section, aside e footer. */
+    grid-template-areas: 'topo topo  topo topo topo' 'menu content content content propaganda' 'footer footer footer footer footer'; /*Define as linhas e as colunas*/
+    align-self:auto;
+}
+nav{
+    grid-area: menu;
+    background-color: var(--cor-lateral)
+}
+
+section{
+    grid-area: content;
+    display: grid;
+    /*grid-gap: 10px 5px; posso colocar assim que é mais rápido, mas é obsoleto*/
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 100px 80px;
+
+}
+section>article{ /*um container dentro do outro*/
+    border: 2px solid hotpink;
+    padding: 30px;
+}
+section h1{
+    grid-column: span 3/*3 colunas que o h1 ocupa*/;
+}
+aside{
+    grid-area: propaganda;
+    background-color: var(--cor-lateral)
+}
+
+
+footer{ 
+    grid-area: footer;
+    background-color: var(--fundoTopFoot);
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto ;
+    }
+    section h1{
+        grid-column: span 1;
+    }
+}
