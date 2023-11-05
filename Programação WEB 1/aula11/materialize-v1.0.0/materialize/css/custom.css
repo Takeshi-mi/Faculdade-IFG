@@ -1,0 +1,7 @@
+/*Se eu criar esse arquivo custom o materialize entende que eu quero customizar algo. É uma boa prática
+Tem que fazer o link para o arquivo custom.css também.
+*/
+
+article {
+    font-size: 30pt;
+}
