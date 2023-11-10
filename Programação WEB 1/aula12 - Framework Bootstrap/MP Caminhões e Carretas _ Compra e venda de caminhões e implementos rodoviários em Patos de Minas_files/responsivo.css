@@ -1,0 +1,825 @@
+@media (max-width: 480px) {
+ /*celular vertical*/
+
+ 
+ .typed-cursor,
+ .noticias-transporte,
+ .barra-footer,
+ .instagram-footer,
+ .face-footer,
+ .segundo-titulo,
+ .terceiro-titulo,
+ .btn1,
+ .btn2{
+ 	display: none;
+ }
+
+ .img-amigos{
+ 	width: 30% !important;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+
+ }
+
+.onde-estamos p{
+	color: black !important;
+   margin-left: initial;
+}
+
+ .conteudo-header-2 p {
+    font-size: 17px;
+
+ }
+
+ .corrige-footer{
+  right: initial;
+}
+
+ .marca-mobile{
+ 	margin: 0 auto;
+ }
+
+ .mapa iframe{
+  height: 200px;
+}
+
+ .endereco-rodape {
+    top: initial;
+}
+
+ .img-veiculos-home {
+    /*height: 200px !important;*/
+
+ }
+
+ .shape {
+   
+    stroke-dashoffset: -420;
+
+  }
+
+  .bloco-veiculo{
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+.promocao-semana{
+	padding-top: 50px;
+}
+
+.dg-container{
+	height: auto;
+}
+
+ .dg-wrapper {
+
+    width: 100%;
+    height: 200px;
+}
+
+ .dg-wrapper a{
+
+    width: 100%;
+    height: 200px;
+}
+ .dg-wrapper a img{
+
+    width: 100%;
+    
+}
+
+ .dg-wrapper a div{
+
+    bottom: initial;
+    
+}
+
+ .primeiro-titulo{
+ 	font-size: 14px;
+ }
+
+
+
+
+
+
+ .box-titulo-veiculo{
+ 	text-align: center;
+ }
+
+ .onde-estamos h2{
+ 	font-size: 30px;
+ 	margin: 35px 0 15px;
+ }
+
+ .imagem-veiculo-descricao{
+ 	text-align: center;
+ }
+
+ .new-discussion-timeline{
+ 	width: 100% !important;
+ }
+
+
+ .icone-whats {
+ 	margin-left: initial;
+ }
+.conteudo-header-2{
+	text-align: center;
+}
+.icones-redes-sociais{
+	text-align: center;
+}
+
+.caption-imagem{
+	position: initial !important;
+	top: initial !important;
+	margin-left: 0px !important;
+}
+
+.menu-header{
+	top: initial;
+	padding-left: initial !important;
+	padding-right: initial !important; 
+	z-index: 99;
+}
+.navbar-default{
+	background-color: initial !important;
+	background-image: none;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+}
+
+.navbar-toggle{
+	border: none;
+	padding: 15px 10px;
+}
+
+.navbar-header button{
+	background-color: initial !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.navbar-toggle .icon-bar{
+	height: 5px;
+	border-radius: 5px;
+}
+
+.fundo-header{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+}
+
+@media (min-width:481px) and (max-width: 767px) {  
+  
+
+ .typed-cursor,
+ .barra-footer,
+ .noticias-transporte,
+ .instagram-footer,
+ .face-footer,
+ .segundo-titulo,
+ .terceiro-titulo,
+ .btn1,
+ .btn2{
+ 	display: none;
+ }
+ .conteudo-header-2 p {
+    font-size: 17px;
+
+ }
+
+  .img-amigos{
+ 	width: 30% !important;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+ }
+
+ .onde-estamos p{
+	color: black !important;
+   margin-left: initial;
+}
+
+
+ .corrige-footer{
+  right: initial;
+}
+
+ .marca-mobile{
+ 	margin: 0 auto;
+ }
+
+ .mapa iframe{
+  height: 200px;
+}
+
+ .endereco-rodape {
+    top: initial;
+}
+
+ .img-veiculos-home {
+    /*height: 200px !important;*/
+
+ }
+
+ .shape {
+   
+    stroke-dashoffset: -420;
+
+  }
+
+  .bloco-veiculo{
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+.promocao-semana{
+	padding-top: 50px;
+}
+
+.dg-container{
+	height: auto;
+}
+
+ .dg-wrapper {
+
+    width: 100%;
+    height: 200px;
+}
+
+ .dg-wrapper a{
+
+    width: 100%;
+    height: 200px;
+}
+ .dg-wrapper a img{
+
+    width: 100%;
+    
+}
+
+ .dg-wrapper a div{
+
+    bottom: initial;
+    
+}
+
+ .primeiro-titulo{
+ 	font-size: 14px;
+ }
+
+
+
+
+
+
+ .box-titulo-veiculo{
+ 	text-align: center;
+ }
+
+ .onde-estamos h2{
+ 	font-size: 30px;
+ 	margin: 35px 0 15px;
+ }
+
+ .imagem-veiculo-descricao{
+ 	text-align: center;
+ }
+
+ .new-discussion-timeline{
+ 	width: 100% !important;
+ }
+
+
+ .icone-whats {
+ 	margin-left: initial;
+ }
+.conteudo-header-2{
+	text-align: center;
+}
+.icones-redes-sociais{
+	text-align: center;
+}
+
+.caption-imagem{
+	position: initial !important;
+	top: initial !important;
+	margin-left: 0px !important;
+}
+
+.menu-header{
+	top: initial;
+	padding-left: initial !important;
+	padding-right: initial !important; 
+	z-index: 99;
+}
+.navbar-default{
+	background-color: initial !important;
+	background-image: none;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+.navbar-header button{
+	background-color: initial !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.fundo-header{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+   
+
+ .typed-cursor,
+ .noticias-transporte,
+ .barra-footer,
+ .instagram-footer,
+ .face-footer,
+ .segundo-titulo,
+ .terceiro-titulo,
+ .btn1,
+ .btn2{
+ 	display: none;
+ }
+
+ .onde-estamos p{
+	color: black !important;
+}
+
+
+  .conteudo-header-2 p {
+    font-size: 17px;
+
+ }
+
+ .corrige-footer{
+  right: initial;
+}
+
+ .marca-mobile{
+ 	margin: 0 auto;
+ }
+
+ .mapa iframe{
+  height: 200px;
+}
+
+ .endereco-rodape {
+    top: initial;
+}
+
+ .img-veiculos-home {
+    /*height: 200px !important;*/
+
+ }
+
+ .shape {
+   
+    stroke-dashoffset: -420;
+
+  }
+
+  .bloco-veiculo{
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+.promocao-semana{
+	padding-top: 50px;
+}
+
+.dg-container{
+	height: auto;
+}
+
+ .dg-wrapper {
+
+    width: 100%;
+    height: 200px;
+}
+
+ .dg-wrapper a{
+
+    width: 100%;
+    height: 200px;
+}
+ .dg-wrapper a img{
+
+    width: 100%;
+    
+}
+
+ .dg-wrapper a div{
+
+    bottom: initial;
+    
+}
+
+ .primeiro-titulo{
+ 	font-size: 14px;
+ }
+
+
+
+
+
+
+ .box-titulo-veiculo{
+ 	text-align: center;
+ }
+
+ .onde-estamos h2{
+ 	font-size: 30px;
+ 	margin: 35px 0 15px;
+ }
+
+ .imagem-veiculo-descricao{
+ 	text-align: center;
+ }
+
+ .new-discussion-timeline{
+ 	width: 100% !important;
+ }
+
+
+ .icone-whats {
+ 	margin-left: initial;
+ }
+.conteudo-header-2{
+	text-align: center;
+}
+.icones-redes-sociais{
+	text-align: center;
+}
+
+.caption-imagem{
+	position: initial !important;
+	top: initial !important;
+	margin-left: 0px !important;
+}
+
+.menu-header{
+	top: initial;
+	padding-left: initial !important;
+	padding-right: initial !important; 
+	z-index: 99;
+}
+.navbar-default{
+	background-color: initial !important;
+	background-image: none;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+.navbar-header button{
+	background-color: initial !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.fundo-header{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+}
+
+@media (min-width: 979px) and (max-width: 1199px) {
+    
+    /*tablet horizontal*/
+
+ .typed-cursor,
+ .barra-footer,
+ .noticias-transporte,
+ .instagram-footer,
+ .face-footer,
+ .segundo-titulo,
+ .terceiro-titulo,
+ .btn1,
+ .btn2{
+ 	display: none;
+ }
+
+  .conteudo-header-2 p {
+    font-size: 17px;
+
+ }
+
+.onde-estamos p{
+	color: black !important;
+}
+
+
+ .corrige-footer{
+  right: initial;
+}
+
+ .marca-mobile{
+ 	margin: 0 auto;
+ }
+
+ .mapa iframe{
+  height: 200px;
+}
+
+ .endereco-rodape {
+    top: initial;
+}
+
+ .img-veiculos-home {
+    /*height: 200px !important;*/
+
+ }
+
+ .shape {
+   
+    stroke-dashoffset: -420;
+
+  }
+
+  .bloco-veiculo{
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+.promocao-semana{
+	padding-top: 50px;
+}
+
+.dg-container{
+	height: auto;
+}
+
+ .dg-wrapper {
+
+    width: 100%;
+    height: 200px;
+}
+
+ .dg-wrapper a{
+
+    width: 100%;
+    height: 200px;
+}
+ .dg-wrapper a img{
+
+    width: 100%;
+    
+}
+
+ .dg-wrapper a div{
+
+    bottom: initial;
+    
+}
+
+ .primeiro-titulo{
+ 	font-size: 14px;
+ }
+
+ .box-titulo-veiculo{
+ 	text-align: center;
+ }
+
+ .onde-estamos h2{
+ 	font-size: 30px;
+ 	margin: 35px 0 15px;
+ }
+
+ .imagem-veiculo-descricao{
+ 	text-align: center;
+ }
+
+ .new-discussion-timeline{
+ 	width: 100% !important;
+ }
+
+
+ .icone-whats {
+ 	margin-left: initial;
+ }
+.conteudo-header-2{
+	text-align: center;
+}
+.icones-redes-sociais{
+	text-align: center;
+}
+
+.caption-imagem{
+	position: initial !important;
+	top: initial !important;
+	margin-left: 0px !important;
+}
+
+.menu-header{
+	/*top: initial;*/
+	padding-left: initial !important;
+	padding-right: initial !important; 
+	
+}
+.navbar-default{
+	background-color: initial !important;
+	background-image: none;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+.navbar-header button{
+	background-color: initial !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.fundo-header{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+    
+}
+
+@media (min-width: 1200px) { 
+   
+
+
+}
+
+@media (min-width: 1500px) and (max-width: 1700px){
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right{
+		top:60% !important;
+	}
+}
+
+
+
+/*FAROL */
+
+@media (max-width: 340px) { 
+   
+ .farol2{
+ 	top: 12%;
+ 	width: 50px;
+ 	left: 20%;
+ }
+  .farol4{
+ 	top: 15%;
+ 	width: 50px;
+ 	left: 40%;
+ }
+
+ .farol{
+ 	width: 50px;
+ 	top: 13%;
+ }
+.farol3{
+	width: 50px;
+	top:13%;
+}
+
+
+}
+
+@media (min-width: 341px) and (max-width: 390px){
+
+ .farol2{
+ 	top: 5%;
+ 	width: 50px;
+ 	left: 20%;
+ }
+  .farol4{
+ 	top: 15%;
+ 	width: 50px;
+ 	left: 40%;
+ }
+
+
+ .farol{
+ 	width: 50px;
+ 	top: 16%;
+ }
+ .farol3{
+	width: 50px;
+	top:13%;
+}
+
+ .shape {
+    stroke-dashoffset: -500;
+
+}
+}
+
+@media (min-width: 391px) and (max-width:440px){
+
+ .farol2{
+ 	top: -5%;
+ 	left: 22%;
+ 	width: 50px;
+ }
+   .farol4{
+ 	top: 15%;
+ 	width: 50px;
+ 	left: 40%;
+ }
+
+ .farol{
+ 	width: 50px;
+ 	top: 19%;
+ }
+ .farol3{
+	width: 50px;
+	top:13%;
+}
+  .shape {
+    stroke-dashoffset: -520;
+
+}
+}
+
+@media (min-width: 441px) and (max-width:480px){
+
+ .farol2{
+ 	top: -25%;
+ 	left: 23%;
+ 	width: 50px;
+ }
+   .farol4{
+ 	top: 0%;
+ 	width: 50px;
+ 	left: 42%;
+ }
+
+ .farol{
+ 	width: 50px;
+ 	top: 0%;
+ 	left: 50%;
+ }
+ .farol3{
+	width: 50px;
+	top:0;
+	left: 72%;
+}
+  .shape {
+    stroke-dashoffset: -520;
+
+}
+}
+
+@media (min-width: 1440px) and (max-width:1940px){
+.farol{
+	top: 35%;
+}
+.farol3{
+	
+	top:43%;
+}
+
+.farol2{
+	top: 30%;
+}
+  .farol4{
+ 	top: 43%;
+ 	
+ }
+
+
+	}

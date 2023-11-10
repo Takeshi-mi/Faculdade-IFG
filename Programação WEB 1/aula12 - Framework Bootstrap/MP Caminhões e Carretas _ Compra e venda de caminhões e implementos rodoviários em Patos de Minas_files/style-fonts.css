@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'bebasneue';
+    src:
+         url('../font/bebasneue-webfont.woff') format('woff'),
+         url('../font/bebasneue-webfont.woff2') format('woff2'),
+         url('../font/bebasneue.otf') format('otf');
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src:
+         url('../font/Roboto-Regular.woff') format('woff'),
+         url('../font/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'billabong';
+    src:
+         url('../font/Billabong.woff') format('woff'),
+         url('../font/Billabong.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'lucida';
+    src:
+         url('../font/Lucida-Grande.woff') format('woff'),
+         url('../font/Lucida-Grande.ttf') format('ttf');
+}
